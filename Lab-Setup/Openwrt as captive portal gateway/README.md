@@ -25,8 +25,8 @@ Open SSID --- openWRT(gateway of the new VLAN) -- OPNSENSE -- Internet.
 3. If using Aruba controller, change the initial role to **authenticated** , because the default logon role is restricted to DNS and ICMP services only.
 
 ## Step 2 Prepare the openWRT
-1. Download target openWRT firmware version from openWRT(https://firmware-selector.openwrt.org/?version=23.05.5&target=x86%2F64&id=generic) and unzip it.
-2. Download qemu-img tools here(https://cloudbase.it/qemu-img-windows/)
+1. Download target openWRT firmware version from [openWRT](https://firmware-selector.openwrt.org/?version=23.05.5&target=x86%2F64&id=generic) and unzip it.
+2. Download qemu-img tools [here](https://cloudbase.it/qemu-img-windows/)
 3. The downloaded openWRT firmware is in .img format. We need to convert it to vmdk to be used by ESXI VM.
 4. """qemu-img convert -f raw -O vmdk openwrt-x86-generic-combined-ext4.img openwrt-x86-generic-combined-ext4.vmdk"""
 5. Upload to your ESXI machine storage.
