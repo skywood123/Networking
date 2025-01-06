@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0b0ed3eb-f921-4b04-956f-bd846bdde4dd)# This lab is exploring captive portal on the gateway. The AP is just for advertising open ssid without pointing to captive portal.
+# This lab is exploring captive portal on the gateway. The AP is just for advertising open ssid without pointing to captive portal.
 
 The network topology as below.
 ![image](https://github.com/user-attachments/assets/b3bb92d9-ba1f-42b8-829b-ed2605808917)
